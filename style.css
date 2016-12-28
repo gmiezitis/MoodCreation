@@ -1,0 +1,67 @@
+style.css
+<head>
+Apvieno html un css
+<link rel="stylesheet" href="style.css"
+</head>
+{P
+background-color red
+div{
+font size
+inherit - mantošana
+p.intro background-color: #ccc;
+hover - uzbraucot elementam , ipasais stils
+active- uzklikscinaja un turiet ir cits stils
+Lieku kodu uzturet ir slikti , jo nevar
+orienteties, lieko nevajag turet
+Peldošie elementi!!!!!!
+LAi nodrosinatu ka divi elementi butu blakus,
+piemeram lai starwars bilde butu blakus
+image-right{
+float:right;
+}
+
+
+Vendoru prefiksi (musdieniga fiicha ,
+ir bibliotekas kas prefiksus automatiski saliek
+
+Stils div > p{
+color: red;
+background-color: yellow;
+}
+Linearo stilu pieskir ja vajag vienu vai divus atributus nodefinet!
+klasiskais ir viss labakais sākumā
+
+Validatori!!! CSS-http://csslint.net/ atver saiti un analize html struktūru un kļūdas
+html   http://validator.w3.org/
+
+Literatūras avoti   wwww.webplatform.org
+rocina-pointer, Hover var mainit krasu
+
+Darbs ar Web inspektoriem!!!
+Chrome inspektori ir labākie tools.pingdom.customize
+kriptografijas oskars ???????
+.container-king{
+  height: 1000px;
+  width: 600px;
+  background-color: yellow;
+  margin: 0 auto;
+}
+.nav{
+  height: 60px;
+  background-color: red;
+  padding-top: 10px;
+}
+.logo-container{
+  float: left;
+  border: 1px solid black;
+  height: 40px;
+  width: 120px;
+  margin-left: 40px;
+}
+.navigation{
+  float: right;
+  height: 50px;
+  width: 200px;
+  border: 1px solid black;
+  margin-right: 20px;
+}

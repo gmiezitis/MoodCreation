@@ -1,0 +1,24 @@
+<!doctype html>
+<head>
+  <title>Title of the document</title>
+  <link rel= 'stylesheet' href='style.css'
+  <h1>Virsraksts ! </h1>
+  <a> href="http://Webskola.lv"</a>
+Techub.com
+events
+<h1>Virsraksts1</h1>
+<Style>
+
+<!-- komentārs -->
+<div class='container'>
+      <div class='container'>
+      <div class='slider-button'></div>
+      <div class='slider-button'></div>
+    </div>
+</div>
+<div class='container-king'>
+  <div class='nav clear'>
+    <div class = 'logo-container'></div>
+    <div class='navigation'></div>
+  </div>
+</div>
