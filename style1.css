@@ -41,7 +41,6 @@ margin: auto;
 .logo-container{
   float: left;
   position: relative;
-  height: 66px;
   width: 170px;
   margin-left: 90px;
 }
@@ -53,26 +52,28 @@ margin: auto;
     font-weight: lighter;
     color: #fff;
     width: 120px;
-}/*
-.kopa-active{
+}
+.active{
   border-top: 5px solid rgba(255, 255, 255, 0.6);
   text-decoration: none;
+  color: #fff;
 
-}*/
+
+}
 
 .navigation{
   float: right;
-  height: 30px;
-  margin-right: 88px;
   padding: 27px;
-  position: relative;
+
+
 }
-.navigation .kopa{
+.navigation a{
   padding: 24px 10px 27px;
   font-size: 14px;
   font-weight: lighter;
   color: #fff;
   text-decoration: none;
+
 }
 
 .container-red-image{
@@ -366,6 +367,8 @@ text-transform: uppercase;
 display: inline-block;
 font-size: 16px;
 border-radius: 8px;
+padding: 10px 40px;
+cursor: pointer;
 
 
 }
@@ -392,7 +395,7 @@ tr{
 
 }
 .plans_table .cost{
-  font-size: 20px;
+  font-size: 25px;
   font-weight: normal;
   text-transform: uppercase;
 }
@@ -538,7 +541,7 @@ background-image: url("pictures/bg-blue.svg");
   resize: vertical;
   min-height: 320px;
   overflow: auto;
-  
+
 }
 .submit{
   background-color: transparent;
