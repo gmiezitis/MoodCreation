@@ -24,7 +24,7 @@ a {
 }
 
 .wrapper {
-    width: 1100px;
+    min-width: 1100px;
     margin: 0 auto;
     position: relative;
     z-index: 1;
@@ -33,18 +33,12 @@ a {
 .container-red-header {
     background-color: rgb(212, 61, 43);
     opacity: 0.9;
-    height: 70px;
+    height: 65px;
     min-width: 1100px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    margin: auto;
+
 }
 
-.container-red-header .wrapper {
-    margin: auto;
-    width: 1300px;
-}
+
 
 .header {
     position: fixed;
@@ -55,19 +49,15 @@ a {
 
 .logo-container {
     float: left;
-    position: relative;
-    width: 170px;
-    margin-left: 90px;
 }
 
 .logo-containerp {
-    position: absolute;
-    top: 25px;
-    left: 100px;
+    vertical-align: middle;
+    display: inline-block;
     font-size: 12px;
     font-weight: lighter;
     color: #fff;
-    width: 120px;
+    margin-top: -55px;
 }
 
 .active {
@@ -76,7 +66,7 @@ a {
     color: #fff;
 }
 
-.kopa:hover {
+.navigation-kopa:hover {
     border-top: 5px solid rgba(255, 255, 255, 0.6);
     text-decoration: none;
     color: #fff;
@@ -85,10 +75,10 @@ a {
 .navigation {
     float: right;
     padding: 27px;
-    margin-right: 100px;
+
 }
 
-.navigation a {
+.navigation-kopa{
     padding: 24px 10px 27px;
     font-size: 14px;
     font-weight: lighter;
@@ -102,39 +92,29 @@ a {
     background-size: cover;
     padding-bottom: 0px;
     overflow: hidden;
-}
 
-.Logotext {
-    width: 933px;
-    position: relative;
-    display: block;
-    margin: 180px auto 40px;
-    padding-bottom: 40px;
-}
-
-.text {
-    font-size: 20px;
-    line-height: 25px;
 }
 
 .socslaids {
-    width: 900px;
-    position: relative;
-    margin-top: 70px;
+    text-align: center;
+    padding-bottom: 20px;
 }
-
-.socslaids .img {
-    opacity: 0.5;
-    /*background-color: #fff;*/
+.socslaids-icon {
+    opacity: .5;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 50px;
+    min-width: 50px;
     text-decoration: none;
-    cursor: auto;
-    margin: 0px 15px 0px 15px;
-    background: none;
 }
-
-.socslaids .img:hover {
+.socslaids-icon:hover {
     opacity: 1;
 }
+.socslaids-img {
+    vertical-align: middle;
+}
+
+
 
 .container-red {
     padding-bottom: 0px;
@@ -159,10 +139,8 @@ a {
 
 }*/
 
-.container-red .wrapper {
-    width: 1200px;
-    margin: auto;
-}
+
+
 
 .container-red h1 {
     position: relative;
@@ -676,4 +654,28 @@ p.info {
 .container {
     margin: 0 auto;
     min-width: 1100px;
+}
+
+/* --------------------
+ * Hero slider
+ * -------------------- */
+.hero-slider {
+  text-align: center;
+  padding-top: 90px;
+}
+.hero-slider-item {
+}
+.hero-slider-img {
+  max-width: 100%;
+  margin-bottom: 50px;
+}
+.hero-slider-description {
+  margin-bottom: 80px;
+}
+
+.hero-slider-description {
+  margin-bottom: 80px;
+  font-size: 20px;
+  line-height: 25px;
+  padding: 0 88px
 }
