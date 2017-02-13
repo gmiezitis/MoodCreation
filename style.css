@@ -37,9 +37,6 @@ a {
     min-width: 1100px;
 
 }
-
-
-
 .header {
     position: fixed;
     min-width: 1100px;
@@ -74,12 +71,12 @@ a {
 
 .navigation {
     float: right;
-    padding: 27px;
+    padding: 23px;
 
 }
 
 .navigation-kopa{
-    padding: 24px 10px 27px;
+    padding: 22px 10px 27px;
     font-size: 14px;
     font-weight: lighter;
     color: #fff;
@@ -126,20 +123,6 @@ a {
     overflow: hidden;
     padding-bottom: 50px;
 }
-
-
-/*
-.bigslider.slide-buttons{
-  position: absolute;
-  top: 40%;
-  transform: translateY(-350%);
-  right: -10%;
-  display: block;
-  transform: rotate(90deg);
-
-}*/
-
-
 
 
 .container-red h1 {
@@ -262,9 +245,6 @@ div.text1 {
     opacity: 0;
 }
 
-.vards {
-    padding-top: 20px;
-}
 
 .imageblock:hover .text1 {
     opacity: 1;
@@ -354,7 +334,7 @@ button, input {
     border-bottom: 1px solid #437c7e;
 }
 
-.plans_table tr.cost td {
+.plans_table .cost td {
     font-weight: normal;
 }
 
@@ -375,13 +355,7 @@ button, input {
     background: #437c7e
 }
 
-tr {
-    display: table-row;
-    vertical-align: inherit;
-    border-color: inherit;
-}
-
-.plans_table tr.row1 td {
+.plans_table .row1 td {
     padding: 45px 0 30px;
     font-size: 20px;
     font-weight: normal;
@@ -400,16 +374,12 @@ tr {
     text-transform: uppercase;
 }
 
-.plans_table tr.last {
+.plans_table .last {
     border: 0px;
 }
 
-td th {
-    display: table-cell;
-    vertical-align: inherit;
-}
 
-.plans_table td.sticky {
+.plans_table .sticky {
     background-color: #316769;
 }
 
@@ -424,12 +394,6 @@ td th {
     background-color: #57aa68;
 }
 
-.wrapper {
-    width: 1100px;
-    margin: 0 auto;
-    position: relative;
-    z-index: 1;
-}
 
 .section-title {
     text-align: center;
